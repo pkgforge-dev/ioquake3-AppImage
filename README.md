@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/ioquake3-AppImage)](https://github.com/pkgforge-dev/ioquake3-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://github.com/ioquake/ioq3/blob/main/misc/quake3.svg?raw" width="128" />
 </p>
 
 
