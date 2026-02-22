@@ -11,9 +11,9 @@
 </p>
 
 
-| Latest Stable Release | Upstream URL |
+| Latest Nightly Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/ioquake3-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/Anylinux-AppImages) |
+| [Click here](https://github.com/pkgforge-dev/ioquake3-AppImage/releases/latest) | [Click here](https://github.com/ioquake/ioq3) |
 
 </div>
 
