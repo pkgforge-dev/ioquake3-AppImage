@@ -8,11 +8,11 @@ export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=PATH_OR_URL_TO_ICON
+export ICON=https://github.com/ioquake/ioq3/raw/refs/heads/main/misc/quake3.svg
 export DESKTOP=/usr/share/applications/quake3.desktop
 
 # Deploy dependencies
-quick-sharun /PATH/TO/BINARY_AND_LIBRARIES_HERE
+quick-sharun /usr/bin/ioquake3 /usr/bin/ioq3ded
 
 # Additional changes can be done in between here
 
