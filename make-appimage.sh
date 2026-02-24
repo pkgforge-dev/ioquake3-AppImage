@@ -12,7 +12,7 @@ export ICON=https://github.com/ioquake/ioq3/raw/refs/heads/main/misc/quake3.svg
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun /opt/quake3/ioquake3 /opt/quake3/ioq3ded /opt/quake3/*
+quick-sharun /opt/quake3/*
 
 # Additional changes can be done in between here
 
