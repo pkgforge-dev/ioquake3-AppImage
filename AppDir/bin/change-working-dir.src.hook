@@ -2,4 +2,5 @@
 dir=${XDG_DATA_HOME:-~/.local/share}/Quake3
 mkdir -p "$dir"
 cd "$dir"
-export APPDIR=$dir
+
+exec "$APPDIR"/bin/ioquake3 +set fs_basepath "$DIR" +set fs_homepath "$DIR" "$@"
