@@ -1,0 +1,4 @@
+#!/bin/false
+dir=${XDG_CONFIG_HOME:-~/.config}/Quake3
+mkdir -p "$dir"
+cd "$dir"
