@@ -1,6 +1,6 @@
 <div align="center">
 
-# WIP PLEASE DON'T USE ITioquake3-AppImage 🐧
+# ioquake3-AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/ioquake3-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/ioquake3-AppImage/releases/latest)
 [![CI Build Status](https://github.com//pkgforge-dev/ioquake3-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/ioquake3-AppImage/releases/latest)
