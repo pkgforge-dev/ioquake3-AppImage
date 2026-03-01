@@ -17,7 +17,7 @@
 
 </div>
 
-### ⚠️ Copy `pak0.pk3` to `~/.local/share/Quake3/baseq3` ⚠️
+### ⚠️ Place `pak0.pk3` to `~/.local/share/Quake3/baseq3` ⚠️
 
 ---
 
