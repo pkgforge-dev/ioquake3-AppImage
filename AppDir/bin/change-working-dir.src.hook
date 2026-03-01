@@ -5,4 +5,5 @@ mkdir -p "$dir"/missionpack
 if [ ! -f "$dir"/baseq3/pak8.pk3 ]; then
   ln -s "$APPDIR"/bin/baseq3/* "$dir"/baseq3
   ln -s "$APPDIR"/bin/missionpack/* "$dir"/missionpack
+fi
 cd "$dir"
