@@ -1,4 +1,8 @@
 #!/bin/false
 dir=${XDG_DATA_HOME:-~/.local/share}/Quake3
 mkdir -p "$dir"/baseq3
+mkdir -p "$dir"/missionpack
+if [ ! -f "$dir"/baseq3/pak8.pk3 ]; then
+  ln -s "$APPDIR"/bin/baseq3/* "$dir"/baseq3
+  ln -s "$APPDIR"/bin/missionpack/* "$dir"/missionpack
 cd "$dir"
