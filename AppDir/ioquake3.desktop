@@ -3,7 +3,6 @@ Encoding=UTF-8
 Name=Quake III Arena
 GenericName=Quake III
 Comment=ioQuake3 - Quake III Open Source Engine
-#Exec=ioquake3 +set fs_basepath "$HOME/.local/share/Quake3" +set fs_homepath "$HOME/.local/share/Quake3" "$@"
 Exec=ioquake3
 Icon=quake3.svg
 StartupWMClass=
