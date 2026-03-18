@@ -1,0 +1,9 @@
+#!/bin/sh
+dir=$DATADIR/Quake3
+mkdir -p "$dir"/baseq3
+mkdir -p "$dir"/missionpack
+if [ ! -f "$dir"/baseq3/pak8.pk3 ]; then
+  ln -sf "$APPDIR"/bin/baseq3/* "$dir"/baseq3
+  ln -sf "$APPDIR"/bin/missionpack/* "$dir"/missionpack
+fi
+cd "$dir"
