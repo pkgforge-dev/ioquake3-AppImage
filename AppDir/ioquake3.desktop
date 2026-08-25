@@ -9,4 +9,4 @@ StartupWMClass=ioquake3
 StartupNotify=true
 Terminal=false
 Type=Application
-Categories=Qt;KDE;GNOME;Application;Game;
+Categories=Application;Game;
