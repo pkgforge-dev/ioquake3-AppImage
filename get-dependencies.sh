@@ -33,8 +33,8 @@ echo "$VERSION" > ~/version
 mkdir -p ./AppDir/bin
 wget -P /tmp http://ftp.gwdg.de/pub/misc/ftp.idsoftware.com/idstuff/quake3/linux/linuxq3apoint-1.32b-3.x86.run
 chmod +x /tmp/linuxq3apoint-1.32b-3.x86.run
-./tmp/linuxq3apoint-1.32b-3.x86.run  --tar xf
-mv -v ./tmp/baseq3 ./tmp/missionpack ./AppDir/bin
+/tmp/linuxq3apoint-1.32b-3.x86.run  --tar xf
+mv -v /tmp/baseq3 ./tmp/missionpack ./AppDir/bin
 
 cd ./ioq3
 cmake -S ./ -B build -DCMAKE_BUILD_TYPE=Release \
