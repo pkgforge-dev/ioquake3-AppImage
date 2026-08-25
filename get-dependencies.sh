@@ -58,4 +58,4 @@ cmake -S ./ -B build -DCMAKE_BUILD_TYPE=Release \
         -DUSE_INTERNAL_LIBS=OFF
 
 cmake --build build
-mv -v build/release/* ../AppDir/bin
+mv -v build/Release/* ../AppDir/bin
