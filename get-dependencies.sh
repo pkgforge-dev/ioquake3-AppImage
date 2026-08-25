@@ -9,6 +9,7 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     cmake       \
     openal      \
+    opusfile    \
     sdl2-compat
 
 echo "Installing debloated packages..."
