@@ -34,6 +34,7 @@ mkdir -p ./AppDir/bin
 wget http://ftp.gwdg.de/pub/misc/ftp.idsoftware.com/idstuff/quake3/linux/linuxq3apoint-1.32b-3.x86.run
 chmod +x ./linuxq3apoint-1.32b-3.x86.run
 ./linuxq3apoint-1.32b-3.x86.run  --tar xf
+mv -v ./baseq3 ./missionpack ./AppDir/bin
 
 cd ./ioq3
 cmake -S ./ -B build -DCMAKE_BUILD_TYPE=Release \
