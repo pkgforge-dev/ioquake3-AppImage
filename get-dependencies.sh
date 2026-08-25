@@ -44,7 +44,6 @@ cmake -S ./ -B build -DCMAKE_BUILD_TYPE=Release \
         -DBUILD_GAME_LIBRARIES=OFF  \
         -DBUILD_GAME_QVMS=OFF       \
         -DBUILD_STANDALONE=OFF      \
-        -DUSE_ARCHLESS_FILENAMES=ON \
         -DUSE_RENDERER_DLOPEN=ON    \
         -DUSE_OPENAL=ON             \
         -DUSE_OPENAL_DLOPEN=OFF     \
