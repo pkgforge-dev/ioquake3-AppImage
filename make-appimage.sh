@@ -12,7 +12,7 @@ export DEPLOY_OPENGL=1
 export DEPLOY_PULSE=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/ioquake3 ./AppDir/bin/*
+quick-sharun ./AppDir/bin/ioquake3 ./AppDir/bin/* /usr/lib/libopenal.so*
 echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
 echo 'ANYLINUX_DO_NOT_LOAD_LIBS=libpipewire-0.3.so*:${ANYLINUX_DO_NOT_LOAD_LIBS}' >> ./AppDir/.env
 # this app has problems with other locales breaking physics
