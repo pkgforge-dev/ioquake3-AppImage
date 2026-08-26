@@ -49,5 +49,5 @@ cmake -S ./ -B build -DCMAKE_BUILD_TYPE=Release \
         -DUSE_FREETYPE=ON           \
         -DUSE_INTERNAL_LIBS=OFF
 
-cmake --build build
+cmake --build build -j$(nproc)
 mv -v build/Release/* ../AppDir/bin
