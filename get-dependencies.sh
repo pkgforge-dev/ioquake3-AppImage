@@ -20,7 +20,7 @@ echo "Building ioquake3..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/ioquake/ioq3"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
-git clone "$REPO" ./ioq3
+git clone --depth 1 "$REPO" ./ioq3
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
@@ -30,7 +30,7 @@ chmod +x /tmp/linuxq3apoint-1.32b-3.x86.run
 mv -v ./baseq3 ./missionpack ./AppDir/bin
 
 cd ./ioq3
-cmake -S ./ -B build -DCMAKE_BUILD_TYPE=Release \
+cmake ./ -B build -DCMAKE_BUILD_TYPE=Release \
         -DBUILD_SERVER=ON           \
         -DBUILD_CLIENT=ON           \
         -DBUILD_RENDERER_GL1=ON     \
