@@ -14,7 +14,7 @@ pacman -Syu --noconfirm \
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano libdecor-mini
+get-debloated-pkgs --add-common --prefer-nano libdecor-mini opus-mini
 
 echo "Building ioquake3..."
 echo "---------------------------------------------------------------"
