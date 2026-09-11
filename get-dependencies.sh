@@ -29,8 +29,7 @@ chmod +x /tmp/linuxq3apoint-1.32b-3.x86.run
 /tmp/linuxq3apoint-1.32b-3.x86.run  --tar xf
 mv -v ./baseq3 ./missionpack ./AppDir/bin
 
-cd ./ioq3
-cmake ./ -B build -DCMAKE_BUILD_TYPE=Release \
+cmake -S ./ioq3 -B build -DCMAKE_BUILD_TYPE=Release \
         -DBUILD_SERVER=ON           \
         -DBUILD_CLIENT=ON           \
         -DBUILD_RENDERER_GL1=ON     \
@@ -48,6 +47,5 @@ cmake ./ -B build -DCMAKE_BUILD_TYPE=Release \
         -DUSE_MUMBLE=ON             \
         -DUSE_FREETYPE=ON           \
         -DUSE_INTERNAL_LIBS=OFF
-
 cmake --build build -j$(nproc)
-mv -v build/Release/* ../AppDir/bin
+mv -v build/Release/* ./AppDir/bin
